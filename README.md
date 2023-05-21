@@ -23,3 +23,15 @@ Será avaliado a capacidade de estimativa do(a) desenvolvedor(a), em conjunto co
 - [ ] 40% de cobertura de código
 - [ ] 60% de cobertura de código
 - [ ] 80% de cobertura de código
+
+### Docker
+
+É possivel executar o projeto em um container docker
+
+#### Docker CLI
+
+Execute no terminal `docker build -t nest-maisenvios-api .` seguido de `docker run -p3000:3000 nest-maisenvios-api`
+
+#### Makefile
+
+Execute no terminal `make build` seguido de `make up`
