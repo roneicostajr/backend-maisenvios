@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "995bb141-10a1-4089-8c0f-e9a507466ff0",
+		"name": "MaisEnvios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7830774"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOne [err]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOne",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags/AA123456789BR",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"AA123456789BR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOne [err]",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/tags/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOne",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Fulano da silva 8\",\n    \"status\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/tags/AA123456789BR",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"AA123456789BR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveOne [err]",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/tags/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveOne",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/tags/AD123456789BR",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"AD123456789BR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Tag\": \"AA123456789BR\",\n    \"name\": \"Fulano da Silva\",\n    \"status\": \"1\",\n    \"source\": \"39645000\",\n    \"price\": \"10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/tags",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
