@@ -51,7 +51,7 @@ const isTagValid = (id: string): Boolean => {
 
 loadSheet();
 
-export const sheetUtils = {
+export default {
   getAllRows: (): Array<Tag> => tags,
   getTagById: (id: string): Tag | string => {
     const foundTag: Tag = tags.find((tag) => tag.Tag === id);

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreateTagDto } from './dto/create-tag.dto';
 import { UpdateTagDto } from './dto/update-tag.dto';
-import { sheetUtils } from '../utils/xlsx/index.js';
+import sheetUtils from '@app/utils/xlsx/index';
 import { Tag } from '@app/types/tag.type';
 
 @Injectable()
