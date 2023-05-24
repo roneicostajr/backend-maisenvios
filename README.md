@@ -16,7 +16,7 @@ Será avaliado a capacidade de estimativa do(a) desenvolvedor(a), em conjunto co
 
 ### Documentação
 
-- [ ] Implementar Swagger
+- [x] Implementar Swagger
 
 ### Testes
 
