@@ -21,8 +21,8 @@ Será avaliado a capacidade de estimativa do(a) desenvolvedor(a), em conjunto co
 ### Testes
 
 - [x] 40% de cobertura de código
-- [ ] 60% de cobertura de código
-- [ ] 80% de cobertura de código
+- [x] 60% de cobertura de código
+- [x] 80% de cobertura de código
 
 ### Docker
 
